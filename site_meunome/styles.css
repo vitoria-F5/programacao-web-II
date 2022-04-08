@@ -6,9 +6,9 @@ box-sizing: border-box;
 font-family: Verdana, Geneva, Thoma, sans-serif;
 }
 
-footer {background-color: #FAA307;}
+footer {background-color: #A6C396;}
 
-header {background-color: #6A040F;
+header {background-color: #bed5bc;
 
 	display:flex;
 	justify-content: space-between;
@@ -16,7 +16,7 @@ header {background-color: #6A040F;
 	padding: 100px;
 }
 
-body {background-color: #9e2e2e	;} 
+body {background-color: #43797a	;} 
 
 ul,li {
 
@@ -27,7 +27,7 @@ ul,li {
 
 a{
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 .menu{
@@ -59,3 +59,4 @@ div {
 img.container {
 	width: 60%;
 }
+
