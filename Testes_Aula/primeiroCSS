@@ -1,0 +1,42 @@
+body {
+	font-family: verdana, arial, helvetica, sans-serif;
+font-size: 9px;
+}
+
+#conteudo p.nivelc {
+color: #0f0; /* Cor verde */
+}
+
+#conteudo p {
+color: #00f; /* Cor azul */
+font-size: 18px;
+}
+
+p {
+color: #f00 !important; /* Cor vermelha */
+font-size: 26px;
+}
+
+body {
+background-color: black;
+color: white;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	}
+	th,td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+	}
+	tr:nth-child(even) {background-color: #f2f2f5;}
+	
+	tr:hover {background-color:pink;}
+	
