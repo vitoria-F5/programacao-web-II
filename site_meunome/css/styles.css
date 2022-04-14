@@ -55,19 +55,7 @@ a{
 	padding: 5 px;
 }
 
-	/* Parte 1.16. da PRIMEIRA especificacao 
-
-body{
-	display:flex;
-	flex-direction:column;
-}
-/* header{ min-height:50px; } 
-
-	
-footer{
-	margin-top:auto;
-}
-*/
+	/* Parte 1.16. da PRIMEIRA especificacao */
 div {
 	display: flex;
 	justify-content: center;
@@ -85,6 +73,20 @@ h1 {
 
 h3 {
 	font-family: 'Merriweather', serif;
-	text-align: center;
+	text-align: justify;
 	/*background-color: white; */
+}
+
+h4 {
+	font-family: 'Merriweather', serif;
+	text-align: center;
+}
+
+h6 {
+	font-family: 'Merriweather', serif;
+	text-align: justify;
+}
+
+p {
+	text-align: center;
 }
