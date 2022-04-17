@@ -24,14 +24,17 @@ header {background-color: #bed5bc;
 }
 
 body {
+
+	/*background-image: url("../img/blue.png");*/
+
 	background-color: #43797a	;
-	/*background-image: url("../img/planta.png");*/
 	height: 100vh;
 	display:flex;
 	flex-direction:column;
 	} 
 
 	/* Parte 1.16. da PRIMEIRA especificacao */
+
 ul,li {
 
 	list-style: none;
@@ -68,13 +71,11 @@ img.container {
 h1 {
 	font-family: 'Merriweather', serif;
 	text-align: center;
-	/*background-color: white; */
 }
 
 h3 {
 	font-family: 'Merriweather', serif;
 	text-align: center;
-	/*background-color: white; */
 }
 
 h4 {
