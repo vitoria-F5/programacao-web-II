@@ -1,0 +1,81 @@
+*{
+
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Thoma, sans-serif;
+}
+
+footer {background-color: #A6C396;
+	min-height: 50px;
+	margin-top: auto;
+}
+
+	/* Parte 1.14. da PRIMEIRA especificacao */
+
+header {background-color:  #a3c4a1;
+
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	min-height:50px; 
+
+}
+
+body {
+	background-color: #216347;
+	height: 100vh;
+	display:flex;
+	flex-direction:column;
+	} 
+
+	/* Parte 1.16. da PRIMEIRA especificacao */
+
+ul,li {
+
+	list-style: none;
+	font-size: 1.2rem;
+}
+
+	/* Parte 1.17. da PRIMEIRA especificacao */
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.menu{
+	display: flex;
+}
+.menu li{
+	margin-left:20px;
+}
+.menu li a{
+	padding: 5 px;
+}
+
+	/* Parte 1.16. da PRIMEIRA especificacao */
+div {
+	display: flex;
+	justify-content: center;
+}
+  
+img.container {
+	width: 60%;
+}
+
+h1,h3,h4,h5 {
+	font-family: 'Merriweather', serif;
+	text-align: center;
+}
+
+h6 {
+	font-family: 'Merriweather', serif;
+	text-align: justify;
+}
+
+p {
+	text-align: center;
+	font-family: 'Georgia', serif;
+}
