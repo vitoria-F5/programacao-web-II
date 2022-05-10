@@ -24,7 +24,7 @@ header {background-color:  #a3c4a1;
 }
 
 body {
-	background-color: #216347;
+	background-color: white;
 	height: 100vh;
 	display:flex;
 	flex-direction:column;
@@ -65,9 +65,16 @@ img.container {
 	width: 60%;
 }
 
-h1,h3,h4,h5 {
+/* TEXT-ALIGN */
+h1, h2, h4, h5, h6 {
 	font-family: 'Merriweather', serif;
 	text-align: center;
+}
+
+h3 {
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 h6 {
@@ -76,6 +83,36 @@ h6 {
 }
 
 p {
-	text-align: center;
-	font-family: 'Georgia', serif;
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+img.pintura1 {
+	object-fit: cover;  
+	width: 1350px;
+	height: 400px;
+}
+
+img.pintura2 {
+	object-fit: cover;  
+	width: 1350px;
+	height: 400px;
+}
+
+img.star {
+	object-fit: cover;  
+	width: 1350px;
+	height: 400px;
+}
+
+img.borba {
+	object-fit: cover;  
+	width: 700px;
+	height: 500px;
+}
+
+img.teste {
+	width: 150px;
+	display: inline-block;
 }
